@@ -1,5 +1,8 @@
 # CISSP Study Guide
 
+> **Status: HISTORICAL LEARNING ARCHIVE**  
+> CISSP achieved in August 2026. This repository is retained as original study material for other learners; it is not an active professional project and is not intended to represent my current technical portfolio.
+
 Practical notes and exam-preparation guidance for the **ISC2 Certified Information Systems Security Professional (CISSP)**, based on the approach I used to pass.
 
 > Original notes only. No recalled exam questions, braindumps, or confidential ISC2 exam content.
@@ -19,7 +22,7 @@ Practical notes and exam-preparation guidance for the **ISC2 Certified Informati
 
 CISSP rewards broad security understanding and sound judgement more than reflexively choosing the most technical answer. I found it useful to think in terms of **business objective → risk → policy/process → control → technology**.
 
-My preparation was therefore built around four things:
+My preparation was built around four things:
 
 1. Establish enough breadth to recognise the major concepts across all eight domains.
 2. Use practice questions diagnostically rather than simply chasing a score.
@@ -53,56 +56,27 @@ When several answers appear valid, ask:
 
 ### Bell-LaPadula vs Biba
 
-**Bell-LaPadula = Confidentiality**  
-Mnemonic: **BLP Blocks Leaks of Private information.**
-
-- No Read Up
-- No Write Down
-
-**Biba = Integrity**  
-Mnemonic: **Biba Builds Integrity.**
-
-- No Read Down
-- No Write Up
+**Bell-LaPadula = Confidentiality** — No Read Up, No Write Down.  
+**Biba = Integrity** — No Read Down, No Write Up.
 
 ## Exam Technique
 
-Pay close attention to **BEST, MOST, FIRST, PRIMARY, LEAST**. These qualifiers can completely change which otherwise-correct answer is appropriate.
-
-For difficult questions:
+Pay close attention to **BEST, MOST, FIRST, PRIMARY, LEAST**. For difficult questions:
 
 1. Eliminate clearly wrong options.
-2. Reduce the question to the two plausible choices.
-3. Identify whether it is operating at a technical, operational, managerial or governance level.
+2. Reduce to the plausible choices.
+3. Identify whether the question operates at a technical, operational, managerial or governance level.
 4. Re-read the qualifier.
 5. Choose the answer that most directly satisfies the requirement.
-
-Do not over-engineer. Technical experience can become a disadvantage when it causes you to invent requirements that are not in the scenario.
-
-## Final Revision Priorities
-
-Focus especially on concepts you repeatedly confuse, including:
-
-- security models;
-- IAM and access-control models;
-- cryptography fundamentals and use cases;
-- network architecture and protocols;
-- BCP/DR terminology and sequencing;
-- incident-response sequencing;
-- SDLC and software-security concepts;
-- risk terminology and governance responsibilities; and
-- differences between similar controls and processes.
 
 ## Contents
 
 - [`domains/README.md`](domains/README.md) — eight-domain revision map
-- [`exam-strategy.md`](exam-strategy.md) — CISSP question-answering approach
+- [`exam-strategy.md`](exam-strategy.md) — question-answering approach
 - [`memory-aids.md`](memory-aids.md) — mnemonics and easily confused concepts
 - [`study-plan.md`](study-plan.md) — preparation workflow
 - [`resources.md`](resources.md) — legitimate resource categories
 
 ## Exam Integrity
 
-This repository intentionally excludes braindumps, recalled questions and material that could violate ISC2 examination rules. It is intended to help candidates understand security concepts and develop the reasoning needed for CISSP.
-
-**CISSP achieved: August 2026.**
+This repository intentionally excludes braindumps, recalled questions and material that could violate ISC2 examination rules. It is retained as a learning archive, not as current certification guidance; candidates should verify current ISC2 requirements from official sources.
